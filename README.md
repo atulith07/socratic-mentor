@@ -12,8 +12,16 @@ AI tutors dump facts (80% forgotten); this forces discovery.
 ### Solution
 Multi-agent with LoopAgent, memory, MCP visuals. Simulated ADK (Kaggle pip issue).
 
-## 🏗️ Architecture
-![Diagram](src/docs/architecture.mmd)  <!-- Render Mermaid -->
+### Architecture
+%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '16px'}} }%%
+graph TD
+    A[Student] --> B[Socratic Orchestrator]
+    B --> C[Probe Tool<br/>98% Purity]
+    C --> D[LLM-as-Judge<br/>Gemini 2.5 Pro]
+    D --> E{Mastery ≥98%?}
+    E -->|No| B
+    E -->|Yes| F[Session Ends<br/>Understanding Achieved]
+    B --> G[Memory Bank]
 
 ## 📊 Evals (98% Avg)
 | Topic | Purity | Tools |
