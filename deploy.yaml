@@ -1,0 +1,7 @@
+engine: vertex-ai
+project: your-project-id
+region: us-central1
+enable_tracing: true
+expose_a2a: true
+memory_bank: vertex-ai
+resumable: true
