@@ -13,6 +13,7 @@ AI tutors dump facts (80% forgotten); this forces discovery.
 Multi-agent with LoopAgent, memory, MCP visuals. Simulated ADK (Kaggle pip issue).
 
 ### Architecture
+```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '16px'}} }%%
 graph TD
     A[Student] --> B[Socratic Orchestrator]
@@ -22,7 +23,7 @@ graph TD
     E -->|No| B
     E -->|Yes| F[Session Ends<br/>Understanding Achieved]
     B --> G[Memory Bank]
-
+```
 ## 📊 Evals (98% Avg)
 | Topic | Purity | Tools |
 |-------|--------|-------|
