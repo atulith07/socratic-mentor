@@ -13,7 +13,7 @@ AI tutors dump facts (80% forgotten); this forces discovery.
 Multi-agent with LoopAgent, memory, MCP visuals. Simulated ADK (Kaggle pip issue).
 
 ## 🏗️ Architecture
-![Diagram](docs/architecture.mmd)  <!-- Render Mermaid -->
+![Diagram](src/docs/architecture.mmd)  <!-- Render Mermaid -->
 
 ## 📊 Evals (98% Avg)
 | Topic | Purity | Tools |
