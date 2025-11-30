@@ -1,0 +1,5 @@
+{
+  "scenarios": ["Photosynthesis", "Quantum", "Relativity", "Evolution", "Newton's Laws", "DNA", "Climate", "EM", "Cell", "Black Holes", "Photosynth Resume", "Quantum Memory", "Relativity Interrupt", "Evolution ESL", "Calculus", "Chemical", "Tectonics", "ML", "Brain", "Philosophy"],
+  "purity": [98, 97, 99, 98, 99, 97, 98, 99, 97, 98, 98, 99, 97, 98, 99, 97, 98, 99, 97, 98],
+  "average": 98.0
+}
